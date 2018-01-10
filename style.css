@@ -1,0 +1,34 @@
+.profilepic{
+  border-radius: 50%;
+  border:1px solid #021a40;
+  border-width: 5px;
+  box-shadow: 5px 5px grey;
+}
+
+.typewriter{
+    color: 	#FF1493;
+    font-family: boldTitillium;
+}
+
+.skillbox{
+  border: 1px;
+  border-radius: 15%;
+}
+
+.nonhoverimg{
+  transform: scale(1);
+}
+.hoverimg{
+  transform: scale(1.2);
+}
+
+
+ @font-face {
+     font-family: myFirstFont;
+     src: url(fonts/TitilliumWeb-Black.ttf);
+ }
+
+ @font-face {
+     font-family: boldTitillium;
+     src: url(fonts/TitilliumWeb-Bold.ttf);
+ }
